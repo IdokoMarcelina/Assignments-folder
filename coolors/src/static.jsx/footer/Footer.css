@@ -1,0 +1,54 @@
+.footerContainer{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 0;
+    margin: 0px 0px;
+}
+
+h5{
+    margin-left: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.one{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+.footerContainer p{
+    font-size: 20px;
+}
+
+
+
+.copy{
+    color: gray;
+    margin-top: 15px;
+    width: 400px;
+}
+
+span{
+    color: black;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.facebook{
+    height: 30px;
+}
+
+.rightLast{
+    margin-right: 50px;
+    margin-top: 10px;
+}

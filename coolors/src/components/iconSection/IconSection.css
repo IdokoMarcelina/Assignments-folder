@@ -1,0 +1,167 @@
+img{
+    width: 30px;
+}
+
+.cards{
+    background-color: gainsboro;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 30px;
+    z-index: 2;
+
+}
+
+.cards:hover{
+    visibility: hidden;
+}
+
+h2{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    margin-left: 22px;
+
+
+}
+
+.cards p{
+    width: 120px;
+    text-align: center;
+    margin-left: 30px;
+   
+}
+
+.iconsection{
+    display: flex;
+
+}
+
+
+.onHovercards{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 661px;
+    right: 5px;
+    left: 5px;
+    z-index: 0;
+    
+}
+
+
+.add2chrome{
+    color: purple;
+    font-size: 20px;
+}
+
+.new{
+    position: absolute;
+    top: 44rem;
+    left: 67rem;
+    background-color: rgb(246, 225, 229);
+    color: rgb(148, 5, 76);
+    width: 40px;
+    border-radius: 5px;
+    z-index: 4;
+}
+
+h4{
+    width: 20px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+.Hcards{
+    background-color: gainsboro;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+.bg-color1{
+    color: rgb(0, 153, 255);
+    background-color:lightblue;
+    width: 185px;
+    height: 200px;
+}
+.bg-color2{
+    color: green;
+    background-color:lightgreen;
+    width: 185px;
+    height: 200px;
+}
+.bg-color3{
+    color: deeppink;
+    background-color:lightpink;
+    width: 185px;
+    height: 200px;
+}
+.bg-color4{
+    color: purple;
+    background-color:plum;
+    width: 185px;
+    height: 200px;
+}
+.bg-color5{
+    color: rgb(217, 156, 3);
+    background-color:rgb(211, 200, 137);
+    width: 185px;
+    height: 200px;
+}
+
+
+@media (max-width: 768px) {
+    .cards, .Hcards {
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
+        padding-top: 20px;
+    }
+
+    .cards:hover {
+        visibility: visible; 
+    }
+
+    .cards p, h2 {
+        width: auto;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .iconsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .onHovercards {
+        display: none;
+    }
+
+    .new {
+      display: none;
+    }
+
+    h4 {
+        margin-left: 0;
+        font-size: 18px;
+        width: auto;
+    }
+
+    
+
+    img {
+        width: 20px;
+    }
+
+    .add2chrome {
+        font-size: 16px;
+    }
+}
