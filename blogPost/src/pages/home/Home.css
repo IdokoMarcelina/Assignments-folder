@@ -1,0 +1,24 @@
+.main{
+    background-color: aliceblue;
+    height: 100vh;
+    width: auto;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    gap: 2rem;
+}
+.container{
+    background-color: gainsboro;
+    height: 200px;
+    width: auto;
+    border: 1px solid gainsboro;
+    
+}
+img{
+    width: 200px;
+}
+
+hr{
+    border: 1px solid gainsboro;
+}

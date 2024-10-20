@@ -1,0 +1,27 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.cardContainer{
+    height: 280px;
+    width: 200px;
+    background-color: rgb(242, 239, 235);
+
+}
+.cardContainer img{
+    width: 200px;
+
+}
+
+h3{
+    color: gray;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.price{
+    color: red;
+}
